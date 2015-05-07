@@ -4,6 +4,9 @@ categories:
 - Projects
     - Games
 tags:
-- Project
-- Game
+- project
+- game
+- unfinished
 ---
+
+This is the second game I ever made.

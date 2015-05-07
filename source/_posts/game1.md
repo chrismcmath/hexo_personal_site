@@ -4,6 +4,9 @@ categories:
 - Projects
     - Games
 tags:
-- Project
-- Game
+- project
+- game
+- recommended 
 ---
+
+This is the first game I ever made.
