@@ -5,8 +5,11 @@ html(lang='en')
     head
         include _partial/head
     body
-        include _partial/head_spacer
-        block content
+        include _partial/animated_header
+        .box_in
+            block content
+        .box_in
+            include _partial/shortcut_bar
     footer 
         include _partial/footer
 

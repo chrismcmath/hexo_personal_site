@@ -1,0 +1,12 @@
+//- Order of our shortcuts: games
+//- TODO: Move this somewhere else (should 'pass it in to the template')
+- shortcuts = [{ "name": "Games", "key": "ci901y44l0002dvofvyxqu59y"}];
+
+nav#shortcut_bar
+    h4 here's the nav bar
+    - each shortcut in shortcuts
+        - var categoryArray = site.categories.filter(function(obj) {
+            - return obj._id == shortcut.key;
+        - })
+        - var category = categoryArray.data[0]
+        a(href=config.root + category.path)= shortcut.name
