@@ -6,10 +6,11 @@ html(lang='en')
         include _partial/head
     body
         include _partial/animated_header
-        .box_in
-            block content
-        .box_in
-            include _partial/shortcut_bar
+        .outer
+            aside.box_in
+                include _partial/shortcut_bar
+            section.box_in
+                block content
     footer 
         include _partial/footer
 

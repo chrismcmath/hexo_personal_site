@@ -1,4 +1,7 @@
+@import "../../../../node_modules/stylus-media-queries/index.styl";
+
 header-height = 4em
+reponsive-width-threshold = 30em
 
 
 body
@@ -14,16 +17,29 @@ body
 #animated_header h2
     margin 0
 
-#shortcut_bar
+.outer:before,
+.outer:after
+    content ""
+    display table
+
+.outer:after
+    clear both
 
 .box_in
     background white
     text-color black
 
+@media screen and (min-width: reponsive-width-threshold)
+    section
+        display inline
+        float left
+        width 75%
 
-
-
-
+@media screen and (min-width: reponsive-width-threshold)
+    aside
+        display inline
+        float right
+        width 25%
 
 
 footer
