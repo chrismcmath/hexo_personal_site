@@ -2,9 +2,9 @@ title: {{ title }}
 date: {{ date }}
 categories:
 - Projects
-    - Games
+    - Tools
 tags:
 - Project
-- Game
+- Tool
 ---
 

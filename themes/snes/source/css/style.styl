@@ -2,11 +2,26 @@
 
 header-height = 4em
 reponsive-width-threshold = 30em
+shortcut-height = 2em
 
+shortcut_colour_1 = #F83726
+shortcut_colour_2 = #ABDD0A
+shortcut_colour_3 = #C802DE
+shortcut_colour_4 = #FA9313
+shortcut_colour_5 = #0D1CD1
+
+border-radius()
+  -webkit-border-radius arguments
+  -moz-border-radius arguments
+  border-radius arguments
 
 body
     background blue
     margin 0
+
+ul, li 
+    margin 0
+    padding 0
 
 #animated_header
     background green
@@ -14,32 +29,69 @@ body
     width 100%
     height header-height
 
-#animated_header h2
+#animated_header h2, h3
     margin 0
-
-.outer:before,
-.outer:after
-    content ""
-    display table
-
-.outer:after
-    clear both
+    padding 0
+    color white
 
 .box_in
     background white
     text-color black
 
-@media screen and (min-width: reponsive-width-threshold)
-    section
+section
+    @media screen and (min-width: reponsive-width-threshold)
         display inline
         float left
         width 75%
 
-@media screen and (min-width: reponsive-width-threshold)
-    aside
+aside
+    @media screen and (min-width: reponsive-width-threshold)
         display inline
         float right
         width 25%
+
+#shortcut_bar li:nth-child(1) span a
+    background shortcut_colour_1
+
+#shortcut_bar li:nth-child(2) span a
+    background shortcut_colour_2 
+
+#shortcut_bar li:nth-child(3) span a
+    background shortcut_colour_3 
+
+#shortcut_bar li:nth-child(4) span a
+    background shortcut_colour_4 
+
+#shortcut_bar li:nth-child(5) span a
+    background shortcut_colour_5 
+
+#shortcut_bar li
+    list-style none
+    width 90%
+    height shortcut-height
+    margin 1em
+    @media screen and (max-width: reponsive-width-threshold)
+        margin 0
+        float left
+        width 20%
+
+#shortcut_bar span
+   width 70%
+
+#shortcut_bar a
+    position relative
+    display block
+    height 100%
+    width 100%
+    text-decoration none
+    font-weight bolder
+    color white
+    border-radius(30px)
+
+#shortcut_bar a p
+    margin 0
+    margin-left 1em
+    line-height shortcut-height
 
 
 footer

@@ -1,12 +1,15 @@
 //- Order of our shortcuts: games
 //- TODO: Move this somewhere else (should 'pass it in to the template')
-- shortcuts = [{ "name": "Games", "key": "ci901y44l0002dvofvyxqu59y"}];
+- shortcuts = [ { "name": "Games", "key": "ci901y44l0002dvofvyxqu59y"}, { "name": "Tools", "key": "ci9k1k9c9000s5bofso1sy93d"}, { "name": "Music", "key": "ci9jygn3600015bofm8eapisy"}, { "name": "Films", "key": "ci9jyj75t000l5bof3z482j8i"}, { "name": "Blog", "key": "ci9jyi0qz00085bof1i3p4f1x"}];
 
 nav#shortcut_bar
-    h4 here's the nav bar
-    - each shortcut in shortcuts
-        - var categoryArray = site.categories.filter(function(obj) {
-            - return obj._id == shortcut.key;
-        - })
-        - var category = categoryArray.data[0]
-        a(href=config.root + category.path)= shortcut.name
+    ul
+        - each shortcut in shortcuts
+            - var categoryArray = site.categories.filter(function(obj) {
+                - return obj._id == shortcut.key;
+            - })
+            - var category = categoryArray.data[0]
+            li
+                span
+                    a(href=config.root + category.path)
+                        p= shortcut.name

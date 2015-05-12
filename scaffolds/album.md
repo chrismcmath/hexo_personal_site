@@ -2,9 +2,8 @@ title: {{ title }}
 date: {{ date }}
 categories:
 - Projects
-    - Games
+    - Albums
 tags:
 - Project
-- Game
+- Album
 ---
-
