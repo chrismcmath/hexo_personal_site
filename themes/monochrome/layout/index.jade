@@ -9,9 +9,7 @@ extends base
 
 // just 'block' will replace the block of any parent
 block content
-    p Hello Dad!
-    //- each post in site.posts
-        article
-            h2
-                a(href=config.root + post.path)= post.title
-            != post.content
+    p index.jade
+    - site.posts.each(function(post) {
+        include _partial/stub
+    - })

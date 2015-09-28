@@ -1,0 +1,10 @@
+extends index
+
+// just 'block' will replace the block of any parent
+block content
+    p category.jade
+    h1= page.category
+
+    - page.posts.each(function(post) {
+        include _partial/stub
+    - })
