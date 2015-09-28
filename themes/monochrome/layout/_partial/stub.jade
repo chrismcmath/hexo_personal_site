@@ -1,11 +1,19 @@
 article
-    p stub.jade what?
-    h2
-        a(href=config.root + post.path)= post.title
-    ul
-        - post.tags.each(function(tag) {
-            li
-                span
-                    a(href=url_for(tag.path))
-                        p= tag.name
-        - })
+    .box_in_border
+        h2
+            a(href=config.root + post.path)= post.title
+                - post.categories.each(function(category) {
+                    span= category.name
+                - })
+        .meta
+            != post.date.format(config.date_format)
+        .content
+            != post.content
+        ul.tags
+            - post.tags.each(function(tag) {
+                li
+                    span
+                        a(href=url_for(tag.path))
+                            p= tag.name
+            - })
+        .content

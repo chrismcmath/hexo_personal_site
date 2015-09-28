@@ -2,7 +2,7 @@ nav#shortcut_bar
     ul
         - site.categories.each(function(category) {
             li
-                span
+                .box_in_border
                     a(href=config.root + category.path)
-                        p= category.name
+                        h2= category.name
         - })
