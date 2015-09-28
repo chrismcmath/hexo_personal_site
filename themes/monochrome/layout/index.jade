@@ -10,5 +10,7 @@ extends base
 // just 'block' will replace the block of any parent
 block content
     - site.posts.each(function(post) {
-        include _partial/stub
+        +stub(post)
     - })
+
+    include _partial/stub

@@ -1,10 +1,10 @@
-title: {{ title }}
-date: {{ date }}
+title: Game the Fourth
 categories:
-- Games
+  - Games
 tags:
-- project
-- game
+  - project
+  - game
+date: 2015-09-28 23:09:30
 ---
 
 This is free
