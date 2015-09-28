@@ -1,10 +1,9 @@
 title: {{ title }}
 date: {{ date }}
 categories:
-- Projects
-    - Games
+- Games
 tags:
-- Project
-- Game
+- project
+- game
 ---
 

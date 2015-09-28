@@ -1,10 +1,8 @@
 title: {{ title }}
 date: {{ date }}
 categories:
-- Projects
-    - Tools
+- Tools
 tags:
-- Project
-- Tool
+- project
+- tool
 ---
-

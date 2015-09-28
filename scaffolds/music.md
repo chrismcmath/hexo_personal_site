@@ -1,9 +1,8 @@
 title: {{ title }}
 date: {{ date }}
 categories:
-- Projects
-    - Songs
+- Music
 tags:
-- Project
-- Song
+- project
+- music
 ---

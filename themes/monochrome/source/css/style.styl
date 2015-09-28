@@ -1,0 +1,114 @@
+@import "../../../../node_modules/stylus-media-queries/index.styl";
+
+header-height = 4em
+reponsive-width-threshold = 30em
+shortcut-height = 2em
+
+shortcut_colour_1 = #000000
+shortcut_colour_2 = #000010 
+shortcut_colour_3 = #000020 
+shortcut_colour_4 = #000030 
+shortcut_colour_5 = #000040 
+
+border-radius()
+  -webkit-border-radius arguments
+  -moz-border-radius arguments
+  border-radius arguments
+
+body
+    background blue
+    margin 0
+
+ul, li 
+    margin 0
+    padding 0
+
+#animated_header
+    background green
+    position relative
+    width 100%
+    height header-height
+
+#animated_header h2, h3
+    margin 0
+    padding 0
+    color white
+
+.box_in
+    background white
+    text-color black
+
+section
+    @media screen and (min-width: reponsive-width-threshold)
+        display inline
+        float left
+        width 75%
+
+aside
+    @media screen and (min-width: reponsive-width-threshold)
+        display inline
+        float left
+        width 25%
+
+#shortcut_bar li:nth-child(1) span a
+    background shortcut_colour_1
+
+#shortcut_bar li:nth-child(2) span a
+    background shortcut_colour_2 
+
+#shortcut_bar li:nth-child(3) span a
+    background shortcut_colour_3 
+
+#shortcut_bar li:nth-child(4) span a
+    background shortcut_colour_4 
+
+#shortcut_bar li:nth-child(5) span a
+    background shortcut_colour_5 
+
+#shortcut_bar li
+    list-style none
+    width 80%
+    height shortcut-height
+    margin 10% 
+    @media screen and (max-width: reponsive-width-threshold)
+        margin 0
+        float left
+        width 20%
+
+#shortcut_bar span
+   width 70%
+
+#shortcut_bar a
+    position relative
+    display block
+    height 100%
+    width 100%
+    text-decoration none
+    font-weight bolder
+    color white
+    border-radius(30px)
+
+#shortcut_bar a p
+    margin 0
+    margin-left 1em
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    line-height shortcut-height
+
+
+footer
+    position fixed
+    background white
+    width 100%
+    height 2em
+    bottom 0
+
+footer ul
+    float left
+    list-style-type none
+
+footer li
+    float left
+    list-style-type none
+    padding-right 1em

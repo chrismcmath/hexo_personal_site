@@ -1,9 +1,9 @@
 title: {{ title }}
 date: {{ date }}
 categories:
-- Projects
-    - Films
+- Films
 tags:
-- Project
-- Film
+- project
+- film
 ---
+

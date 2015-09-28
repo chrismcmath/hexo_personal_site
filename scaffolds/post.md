@@ -3,6 +3,7 @@ date: {{ date }}
 categories:
 - Blog
 tags:
-- Blog
+- blog
 ---
+
 
