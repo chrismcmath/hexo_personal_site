@@ -4,13 +4,15 @@ block vars
 html(lang='en')
     head
         include _partial/head
-    body
+    //body
+    body(onload="Init();")
+        include _partial/background
         include _partial/animated_header
         .outer
             aside.box_in
                 include _partial/shortcut_bar
             section.box_in
                 block content
-    footer 
+    //footer 
         include _partial/footer
 
