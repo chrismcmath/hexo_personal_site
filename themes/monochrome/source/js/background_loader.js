@@ -1,12 +1,6 @@
 function Init() {
-    background = document.getElementById('background');
-    background.src =
-        'http://lorempixel.com/g/' + 
-        background.width + 
-        '/' +
-        background.height + 
-        '/' + 
-        'abstract/';
+    InitAnimatedBackground();
+    UpdateLoremPixelImage();
 }
 
 function Easel() {
@@ -23,7 +17,15 @@ function Easel() {
     stage.update();
 }
 
-function UpdatePicture() {
+function UpdateLoremPixelImage() {
+    var background = document.getElementById('lorempixel');
+    background.src =
+        'http://lorempixel.com/g/' + 
+        background.width + 
+        '/' +
+        background.height + 
+        '/' + 
+        'abstract/';
 }
 
 function UpdateDimensions() {
