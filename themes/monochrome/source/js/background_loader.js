@@ -7,9 +7,9 @@ function UpdateLoremPixelImage() {
     var loremPixel = document.getElementById('lorempixel');
     loremPixel.src =
         'http://lorempixel.com/g/' + 
-        background.width + 
+        loremPixel.width + 
         '/' +
-        background.height + 
+        loremPixel.height + 
         '/' + 
         'abstract/';
 }

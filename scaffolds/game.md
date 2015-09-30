@@ -1,13 +1,20 @@
 title: {{ title }}
-date: {{ date }}
+role:
+status: 
+tagline: 
 categories:
-- Games
+  - Games
 tags:
-- project
-- game
+  - game
+  - project
+pictures:
+  - {id: 0, title: ""}
+  - {id: 1, title: ""}
+  - {id: 2, title: ""}
+links:
+  - {description: "Play and Download on Itch.io", url: ""}
+  - {description: "Ludum Dare", url: ""}
+date: {{ date }}
 ---
 
-This is free
-p this is after a p
-p= this is after a p with an equals
-<p> this is in a p with tags </p>
+Description

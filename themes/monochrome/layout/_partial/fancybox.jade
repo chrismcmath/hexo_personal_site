@@ -1,0 +1,21 @@
+link(rel="stylesheet", href=config.root+ "fancybox/jquery.fancybox.css", type="text/css", media="screen")
+script(src=config.root + "fancybox/jquery.fancybox.pack.js")
+script(type="text/javascript").
+    $(document).ready(function() {
+        $(".fancybox")
+        .attr('rel', 'gallery')
+        .fancybox({
+            padding : 0,
+            helpers : {
+                title: {
+                    type: 'outside'
+                },
+                overlay : {
+                    css : {
+                        'background' : 'rgba(0,0,0,0.8)'
+                    }
+                }
+            }
+        });
+    });
+

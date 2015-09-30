@@ -7,6 +7,14 @@ mixin game_header(game)
             | Date
             span= game.date.format(config.date_format)
     .gallery
-        - if (game.pic_count != null) {
+        - if (game.pictures != null) {
+            - game.pictures.forEach(function (picture) {
+                .img_container
+                    - var imgPath = "/" + game.path + "cover" + picture.id + ".png";
+                    a.fancybox(rel='group', href= imgPath, title= picture.title)
+                        img(src=imgPath)
+            - })
         - }
+    .tagline
+        h4= game.tagline
 
