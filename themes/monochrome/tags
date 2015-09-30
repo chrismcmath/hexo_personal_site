@@ -20,6 +20,8 @@ init	/Users/chrismcmath/Documents/websites/hexo/blog/themes/monochrome/source/js
 onWindowResize	/Users/chrismcmath/Documents/websites/hexo/blog/themes/monochrome/source/js/animated_background.js	/^function onWindowResize( event ) {$/;"	f
 params	/Users/chrismcmath/Documents/websites/hexo/blog/themes/monochrome/source/js/animated_background.js	/^    var params = [$/;"	v
 render	/Users/chrismcmath/Documents/websites/hexo/blog/themes/monochrome/source/js/animated_background.js	/^function render() {$/;"	f
+uniforms	/Users/chrismcmath/Documents/websites/hexo/blog/themes/monochrome/source/js/animated_background.js	/^var uniforms;$/;"	v
+uniforms.time	/Users/chrismcmath/Documents/websites/hexo/blog/themes/monochrome/source/js/animated_background.js	/^        time: { type: "f", value: 1.0 },$/;"	p
 uniforms1	/Users/chrismcmath/Documents/websites/hexo/blog/themes/monochrome/source/js/animated_background.js	/^var uniforms1;$/;"	v
 uniforms1.time	/Users/chrismcmath/Documents/websites/hexo/blog/themes/monochrome/source/js/animated_background.js	/^        time: { type: "f", value: 1.0 },$/;"	p
 uniforms2.time	/Users/chrismcmath/Documents/websites/hexo/blog/themes/monochrome/source/js/animated_background.js	/^        time: { type: "f", value: 1.0 },$/;"	p

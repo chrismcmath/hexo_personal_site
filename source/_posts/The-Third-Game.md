@@ -1,4 +1,7 @@
 title: The Third Game
+status: Prototype
+role: Developer
+tagline: The game that all others forgot
 categories:
   - Games
 tags:
@@ -27,6 +30,7 @@ b
 {% asset_img slug [title] %}
 c
 {% asset_link slug [title] %}
+
 
 
 

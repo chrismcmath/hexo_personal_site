@@ -1,6 +1,6 @@
 var background;
 var camera, scene, renderer;
-var uniforms1;
+var uniforms;
 var clock = new THREE.Clock();
 
 function InitAnimatedBackground() {
@@ -13,23 +13,13 @@ function InitAnimatedBackground() {
 
     var geometry = new THREE.PlaneGeometry(2, 2);
 
-    uniforms1 = {
+    uniforms = {
         time: { type: "f", value: 1.0 },
         resolution: { type: "v2", value: new THREE.Vector2() }
     };
 
-    /*
-    uniforms2 = {
-        time: { type: "f", value: 1.0 },
-        resolution: { type: "v2", value: new THREE.Vector2() },
-        texture: { type: "t", value: THREE.ImageUtils.loadTexture( "textures/disturb.jpg" ) }
-    };
-
-    uniforms2.texture.value.wrapS = uniforms2.texture.value.wrapT = THREE.RepeatWrapping;
-    */
-
     var material = new THREE.ShaderMaterial( {
-        uniforms: uniforms1,
+        uniforms: uniforms,
         vertexShader: document.getElementById( 'vertexShader' ).textContent,
         fragmentShader: document.getElementById('fragmentShader').textContent
 
@@ -52,10 +42,8 @@ function InitAnimatedBackground() {
 }
 
 function onWindowResize( event ) {
-    console.log('onWindowResize');
-
-    uniforms1.resolution.value.x = window.innerWidth;
-    uniforms1.resolution.value.y = window.innerHeight;
+    uniforms.resolution.value.x = window.innerWidth;
+    uniforms.resolution.value.y = window.innerHeight;
 
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
@@ -72,7 +60,7 @@ function animate() {
 
 function render() {
     var delta = clock.getDelta();
-    uniforms1.time.value += delta * 5;
+    uniforms.time.value += delta * 5;
 
     renderer.render(scene, camera);
 }

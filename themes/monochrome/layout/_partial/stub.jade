@@ -1,3 +1,7 @@
+include blog_header
+include game_header
+include game_footer
+
 mixin stub(post)
     article
         .box_in_border
@@ -7,14 +11,26 @@ mixin stub(post)
                         span= category.name
                     - })
             .meta
-                != post.date.format(config.date_format)
+                - post.categories.each(function(category) {
+                    - if (category.name == "Games") {
+                        +game_header(post)
+                    - } else {
+                        +blog_header(post)
+                    - }
+                - })
             .content
                 != post.content
+            .footer
+                - post.categories.each(function(category) {
+                    - if (category.name == "Games") {
+                        +game_footer(post)
+                    - }
+                - })
             ul.tags
                 - post.tags.each(function(tag) {
                     li
                         span
                             a(href=url_for(tag.path))
-                                p= tag.name
+                                p= '#' + tag.name
                 - })
             .content

@@ -1,0 +1,12 @@
+mixin game_header(game)
+    .game_meta
+        p Status
+            span= game.status
+            | Role
+            span= game.role
+            | Date
+            span= game.date.format(config.date_format)
+    .gallery
+        - if (game.pic_count != null) {
+        - }
+

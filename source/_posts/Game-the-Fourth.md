@@ -1,9 +1,15 @@
 title: Game the Fourth
+role: Contributor
+status: Abandoned
+pic_count: 5
 categories:
   - Games
 tags:
   - project
   - game
+links:
+  - {description: "here's a link", url: "html://www.google.com"}
+  - {description: "and another", url: "html://www.bing.com"}
 date: 2015-09-28 23:09:30
 ---
 
@@ -19,7 +25,3 @@ date: 2015-09-28 23:09:30
 <div class="post-gallery"></div>
 
 GAme the fourth is the fourth game I made. It features not only one thing but two things. Here are some links.
-
-<h4>
-    <a href="http://chrismcmath.itch.io">Play on itch.io</a>
-</h4>

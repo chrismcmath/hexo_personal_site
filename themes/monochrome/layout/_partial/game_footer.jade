@@ -1,0 +1,8 @@
+mixin game_footer(game)
+    .link
+        - if (game.links != null) {
+            - game.links.forEach(function (l) {
+                h4
+                    a(href=l.url)= l.description
+            - })
+        - }
