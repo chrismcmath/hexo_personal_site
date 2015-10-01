@@ -1,0 +1,18 @@
+mixin tool_header(tool)
+    .game_meta
+        p Status
+            span= tool.status
+            | Date
+            span= tool.date.format(config.date_format)
+    .gallery
+        - if (tool.pictures != null) {
+            - tool.pictures.forEach(function (picture) {
+                .img_container
+                    - var imgPath = "/" + tool.path + picture.id + ".png";
+                    a.fancybox(rel='group', href=imgPath, title=picture.title)
+                        img(src=imgPath, alt=picture.title)
+            - })
+        - }
+    .tagline
+        h4= tool.tagline
+

@@ -1,8 +1,18 @@
 title: {{ title }}
-date: {{ date }}
+status:
+tagline:
 categories:
 - Tools
 tags:
 - project
-- tool
+pictures:
+   - {id: 0, title: ""}
+   - {id: 1, title: ""}
+   - {id: 2, title: ""}
+links:
+   - {description: "Github", url: ""}
+date: {{ date }}
 ---
+
+
+

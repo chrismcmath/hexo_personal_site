@@ -1,6 +1,6 @@
+include _partial/stub
+
 extends index
 
-// just 'block' will replace the block of any parent
 block content
-    - var post = page
-    include _partial/stub
+    +stub(page)

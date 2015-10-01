@@ -10,9 +10,9 @@ mixin game_header(game)
         - if (game.pictures != null) {
             - game.pictures.forEach(function (picture) {
                 .img_container
-                    - var imgPath = "/" + game.path + "cover" + picture.id + ".png";
-                    a.fancybox(rel='group', href= imgPath, title= picture.title)
-                        img(src=imgPath)
+                    - var imgPath = "/" + game.path + picture.id + ".png";
+                    a.fancybox(rel='group', href=imgPath, title=picture.title)
+                        img(src=imgPath, alt=picture.title)
             - })
         - }
     .tagline

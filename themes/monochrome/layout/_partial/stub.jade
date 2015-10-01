@@ -1,6 +1,7 @@
 include blog_header
 include game_header
 include game_footer
+include tool_header
 
 mixin stub(post)
     article
@@ -14,6 +15,8 @@ mixin stub(post)
                 - post.categories.each(function(category) {
                     - if (category.name == "Games") {
                         +game_header(post)
+                    - } else if (category.name == "Tools") {
+                        +tool_header(post)
                     - } else {
                         +blog_header(post)
                     - }
