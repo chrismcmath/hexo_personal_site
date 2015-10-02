@@ -1,8 +1,15 @@
+include shortcut
+include social_button
+
 nav#shortcut_bar
     ul
+        +shortcut('Everything', '/')
         - site.categories.each(function(category) {
-            li
-                .box_in_border
-                    a(href=config.root + category.path)
-                        h2= category.name
+            +shortcut(category.name, config.root + category.path)
         - })
+        li
+            .box_in_border
+                +social_button('facebook', 'http://facebook.com')
+                +social_button('google', 'http://facebook.com')
+                +social_button('twitter', 'http://twitter.com/chrismcmath')
+                +social_button('linkedin', 'http://facebook.com')

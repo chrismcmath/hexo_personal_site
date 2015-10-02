@@ -2,6 +2,7 @@ title: Synctory
 categories:
   - Tools
 tags:
+  - synctory
   - project
 pictures:
   - id: 0
