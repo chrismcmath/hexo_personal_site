@@ -1,7 +1,4 @@
 mixin display_posts(posts)
-    p got 
-        span= posts.length
-        span posts
     - posts.sort('date').reverse().each(function(post) {
         +stub(post)
     - })
