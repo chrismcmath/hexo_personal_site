@@ -30,9 +30,10 @@ status: Completed
 tagline: Short puzzlescript puzzler
 ---
 
-Made in 48 hours for LD32 (theme 'Unconventional Weapon'), this was a great opportunity to get my hands dirty with Stephen Lavelle's Puzzlescript engine. The syntax is great fun to figure out, and itself resembles someone like a puzzle game. The limitations of the engine are liberating, but also allow the designer no slight-of-hand tricks to draw attention away from poor gameplay. A good puzzlescript game is a good game, period.
+Made in 48 hours for LD32 (theme 'An Unconventional Weapon'), this was a great opportunity to get my hands dirty with Stephen Lavelle's Puzzlescript engine. The syntax is great fun to figure out, itself resembling a puzzle game. The limitations of the engine are liberating, but also allow the designer no slight-of-hand tricks to draw attention away from unengaging gameplay. A good puzzlescript game is a good game, period.
 
 I had tried to avoid any story at all, having experimented greatly in the previous two Ludum Dares. However I found it impossible to avoid entirely, opting for a short introduction that provides some sense of motivation for your avatar. And why 'Gran'? 'Gran' is funny, right?
 
 This also marked my first game in a while to feature an actual colour palette. At the time I remember being very unsatisfied with it, but looking back it has a dreary yet colourful demeanour that suits the theme quite nicely.
+
 

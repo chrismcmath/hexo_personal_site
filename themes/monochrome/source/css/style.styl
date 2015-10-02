@@ -6,6 +6,7 @@ universal_margin = 0.5em
 meta_text_size = 0.8em
 
 grey_colour = #cccccc   
+grey_colour_shadow = #bbbbbb
 
 shortcut_colour_1 = #000000
 shortcut_colour_2 = #000010 
@@ -77,6 +78,12 @@ h1, h2, h3, h4, h5, p
     padding-bottom 0
     box-shadow 3px 3px 4px -1px rgba(0,0,0,0.75)
     background white
+
+.post_title h2
+    text-shadow 1px 1px grey_colour_shadow
+
+.post_title span
+    text-shadow none
 
 section .box_in_border
     margin-left 0
@@ -161,6 +168,9 @@ article h2 span
 .content h1, h3, p
     margin-top universal_margin
 
+.content a
+    text-decoration underline
+
 .img_container
     position relative
     height 10em
@@ -207,6 +217,13 @@ article h2 span
 
 .links
     margin-top universal_margin
+
+.links ul
+    margin-left universal_margin
+    padding-left universal_margin
+
+.links li
+    list-style-type circle
 
 .links h4
     font-size 1.2em

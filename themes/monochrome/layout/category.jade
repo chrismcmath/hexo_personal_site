@@ -1,9 +1,8 @@
+include _partial/stub
+include _partial/display_posts
+
 extends base
 
 // just 'block' will replace the block of any parent
 block content
-    - page.posts.each(function(post) {
-        +stub(post)
-    - })
-
-    include _partial/stub
+    +display_posts(page.posts)

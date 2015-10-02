@@ -1,8 +1,10 @@
 mixin game_footer(game)
     .links
         - if (game.links != null) {
-            - game.links.forEach(function (link) {
-                h4
-                    a(href=link.url)= link.description
-            - })
+            ul
+                - game.links.forEach(function (link) {
+                    li
+                        h4
+                            a(href=link.url)= link.description
+                - })
         - }

@@ -6,11 +6,12 @@ include tool_header
 mixin stub(post)
     article
         .box_in_border
-            h2
-                a(href=config.root + post.path)= post.title
-                    - post.categories.each(function(category) {
-                        span= category.name
-                    - })
+            .post_title
+                h2
+                    a(href=config.root + post.path)= post.title
+                        - post.categories.each(function(category) {
+                            span= category.name
+                        - })
             .meta
                 - post.categories.each(function(category) {
                     - if (category.name == "Games") {
@@ -25,7 +26,7 @@ mixin stub(post)
                 != post.content
             .footer
                 - post.categories.each(function(category) {
-                    - if (category.name == "Games") {
+                    - if (category.name == "Games" || category.name == "Tools") {
                         +game_footer(post)
                     - }
                 - })
