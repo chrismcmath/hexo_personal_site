@@ -29,5 +29,6 @@ DoX (Tahir Vico), Nipiton (Wongsuparatkul) and I met at Global Game Jam Bangkok 
 
 Through our design iterations we managed to settle on a social game that other people could drop in and out of. The game uses linguistic communication between players as its core mechanic, and the local network to sync the game state between devices. Players cannot see what is around them, rather they must trust what their opponent tells them. The effect was something like the popular party game Mafia/Werewolf, with relationships mutating over individual games. 
 
-The biggest issue with the game was how it communicated its own mechanics- one of the pictures above shows me stuggling to explain the concept to the judges. As a party game it should be instantly grok-able, but unforunatley we ran out of time before figuring out how to achieve this.
+The biggest issue with the game was how it communicated its own mechanics- one of the pictures above shows me stuggling to explain the concept to the judges. As a party game it should be instantly grok-able, but unfortunatley we ran out of time before figuring out how to achieve this.
+
 

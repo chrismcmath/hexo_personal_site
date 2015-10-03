@@ -16,7 +16,7 @@ pictures:
   - id: 4
     title: 'We played with forced perspective effects to create the sense of an unstable home'
   - id: 5
-    title: 'The voice acting removed the need for any phyiscal NPCs in game'
+    title: 'The voice acting removed the need for any physical NPCs in game'
 links:
   - description: Play and Download on Itch.io
     url: 'http://jamforleelah53.itch.io/delicate-thread'

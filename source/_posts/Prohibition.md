@@ -25,7 +25,8 @@ tagline: Location-based drinking game
 
 Live games are to video games as theatre is to film; it only lasts for a finite time with a finite audience but hell is it electrifying.
 
-I used my birthday to galvanise friends to form teams and particpate in a day of drinking, running and strategy, and for me worrying the wheels might come off at any point. Foruntately Meteor proved a stable and flexible platform to build the game on, with no hiccups as teams ran riot over the hutongs of Beijing using mobile devices to check in. There were some superb plays over the two and a half hour play session and the winning team got to choose my new haircut: an inverse mohawk.
+I used my birthday to galvanise friends to form teams and participate in a day of drinking, running and strategy, and for me worrying the wheels might come off at any point. Fortunately Meteor proved a stable and flexible platform to build the game on, with no hiccups as teams ran riot over the hutongs of Beijing using mobile devices to check in. There were some superb plays over the two and a half hour play session and the winning team got to choose my new haircut: an inverse mohawk.
 
 If you would like to run your own version of the game, or are interested in helping develop the platform please get in touch!
+
 

@@ -12,7 +12,7 @@ pictures:
   - id: 2
     title: 'The amount of customisation was absurd, with many units and gear combinations'
   - id: 3
-    title: 'The authoritive server prevented any foul play and recorded sessions for replay'
+    title: 'The authoritative server prevented any foul play and recorded sessions for replay'
 links:
   - description: Website
     url: 'emberconflict.com'

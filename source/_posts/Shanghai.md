@@ -24,4 +24,5 @@ The first of many collaborations with Samuel Green, Shanghai marks the beginning
 
 The design of the game came together very quickly, starting from the idea of espionage and the flow of information through a secretive system. It was great fun inserting themed assets; the ticker tape, the Bund, and the 1940s search lights. Daniel Arnold-Mist made a last minute cameo providing the sepia map and some great art suggestions.
 
-The game proved to be engaging, and we've experiemented with prototypes since for a possible follow up. The issue of diversion of focus in the game (with attention conintually flipping from the map to the ticker tape to the embassy stats) was easy to fix; trying to distill multiple interacting mechanics down to something simpler but just as emergent less so.
+The game proved to be engaging, and we've experimented with prototypes since for a possible follow up. The issue of diversion of focus in the game (with attention continually flipping from the map to the ticker tape to the embassy stats) was easy to fix; trying to distill multiple interacting mechanics down to something simpler but just as emergent less so.
+
