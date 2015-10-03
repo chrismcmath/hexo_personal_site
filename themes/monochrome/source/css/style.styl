@@ -87,14 +87,14 @@ h1, h2, h3, h4, h5, p
 
 section .box_in_border
     margin-left 0
-    @media screen and (max-width: reponsive-width-threshold)
+    @media screen and (orientation:portrait) and (max-width: reponsive-width-threshold)
         margin-left universal_margin
 
 section
     display inline
     float left
     width 75%
-    @media screen and (max-width: reponsive-width-threshold)
+    @media screen and (orientation:portrait) and (max-width: reponsive-width-threshold)
         display block
         float none
         width 100%
@@ -104,7 +104,7 @@ aside
     display inline
     float left
     width 25%
-    @media screen and (max-width: reponsive-width-threshold)
+    @media screen and (orientation:portrait) and (max-width: reponsive-width-threshold)
         display block
         float none
         width 100%
@@ -127,20 +127,20 @@ aside
 #shortcut_bar li
     list-style none
     margin-top universal_margin
-    @media screen and (max-width: reponsive-width-threshold)
+    @media screen and (orientation:portrait) and (max-width: reponsive-width-threshold)
         margin 0
         float left
         width 33.33%
 
 #shortcut_bar li:nth-child(4)
-    @media screen and (max-width: reponsive-width-threshold)
+    @media screen and (orientation:portrait) and (max-width: reponsive-width-threshold)
         display block
         clear both
         width 100%
         margin-top -universal_margin
 
 #shortcut_bar li:nth-child(4) .box_in_border
-    @media screen and (max-width: reponsive-width-threshold)
+    @media screen and (orientation:portrait) and (max-width: reponsive-width-threshold)
         margin-top 0
 
 #shortcut_bar a
@@ -158,7 +158,7 @@ aside
     white-space: nowrap
     overflow: hidden
     text-overflow: ellipsis
-    @media screen and (max-width: reponsive-width-threshold)
+    @media screen and (orientation:portrait) and (max-width: reponsive-width-threshold)
         text-align center
 
 .tags li
@@ -262,7 +262,7 @@ article h2 span
     margin universal_margin
     width 1em
     height 1em
-    @media screen and (max-width: reponsive-width-threshold)
+    @media screen and (orientation:portrait) and (max-width: reponsive-width-threshold)
         width 2em
         height 2em
 
