@@ -1,7 +1,7 @@
 @import "../../../../node_modules/stylus-media-queries/index.styl";
 
 //header-height = 4em
-reponsive-width-threshold = 30em
+reponsive-width-threshold = 980px
 universal_margin = 0.5em
 meta_text_size = 0.8em
 
@@ -87,18 +87,27 @@ h1, h2, h3, h4, h5, p
 
 section .box_in_border
     margin-left 0
+    @media screen and (max-width: reponsive-width-threshold)
+        margin-left universal_margin
 
 section
-    @media screen and (min-width: reponsive-width-threshold)
-        display inline
-        float left
-        width 75%
+    display inline
+    float left
+    width 75%
+    @media screen and (max-width: reponsive-width-threshold)
+        display block
+        float none
+        width 100%
+        clear both
 
 aside
-    @media screen and (min-width: reponsive-width-threshold)
-        display inline
-        float left
-        width 25%
+    display inline
+    float left
+    width 25%
+    @media screen and (max-width: reponsive-width-threshold)
+        display block
+        float none
+        width 100%
 
 #shortcut_bar li:nth-child(1) span a
     background shortcut_colour_1
@@ -121,7 +130,18 @@ aside
     @media screen and (max-width: reponsive-width-threshold)
         margin 0
         float left
-        width 20%
+        width 33.33%
+
+#shortcut_bar li:nth-child(4)
+    @media screen and (max-width: reponsive-width-threshold)
+        display block
+        clear both
+        width 100%
+        margin-top -universal_margin
+
+#shortcut_bar li:nth-child(4) .box_in_border
+    @media screen and (max-width: reponsive-width-threshold)
+        margin-top 0
 
 #shortcut_bar a
     position relative
@@ -138,6 +158,8 @@ aside
     white-space: nowrap
     overflow: hidden
     text-overflow: ellipsis
+    @media screen and (max-width: reponsive-width-threshold)
+        text-align center
 
 .tags li
     list-style none
@@ -231,6 +253,7 @@ article h2 span
 
 .social_buttons
     height 2em
+    overflow hidden
 
 .social_button
     float right
