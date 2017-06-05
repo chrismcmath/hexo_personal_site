@@ -15,6 +15,6 @@ status: Completed
 tagline: Small JS Library to flatten meshes
 ---
 
-A small javascript library built on top of THREE.js to flatten any mesh into a 2D plane. This was a core component of the <a href="2012/11/14/Chair-Builder/">Kammy Chair Builder webapp</a>, open-sourced as I thought it might be of some use to others.
+A small javascript library built on top of THREE.js to flatten any mesh into a 2D plane. This was a core component of the <a href="/2012/11/14/Chair-Builder/">Kammy Chair Builder webapp</a>, open-sourced as I thought it might be of some use to others.
 
 
