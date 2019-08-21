@@ -20,10 +20,10 @@ links:
     url: 'https://www.youtube.com/watch?v=08gi7HvMke4'
 date: 2012-09-12
 status: Abandoned
-tagline: Platform for making and playing educational death
+tagline: Platform for making and playing educational games
 ---
 
-My final project at Imperial, Lucura was an experiment in revolutionising the way games in education could work. It used crowd-sourcing to create content, and split the curation between teachers and students to incentivise educational and fun games.
+My final project at Imperial, Lucura was an experiment in rethinking the way games in education can work. It used crowd-sourcing to create content, and split the curation between teachers and students to incentivise educational and fun games.
 
-Each game was constructed as a series of micro-games, invigorating a quiz format that could also test aptitude. The limitations this design engendered allows the game making tools to be greatly simplified.
+Each game was constructed as a series of micro-games, invigorating a quiz format that could also test aptitude. These limitations allowed the game making tools to be greatly simplified.
 

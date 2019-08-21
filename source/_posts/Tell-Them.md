@@ -1,4 +1,4 @@
-title: Tell-Them
+title: Tell Them
 categories:
   - Games
 tags:

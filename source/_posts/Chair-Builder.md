@@ -7,7 +7,7 @@ tags:
 pictures:
   - id: 0
     title: 'Editing the blueprint on the left directly modified the 3D chair'
-  - id: 2
+  - id: 1
     title: 'Theoretically the chair could support custom textured materials too'
 date: 2012-11-14
 status: Abandoned

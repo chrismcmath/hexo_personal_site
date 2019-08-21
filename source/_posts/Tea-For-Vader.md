@@ -1,4 +1,4 @@
-title: Tea-For-Vader
+title: Tea For Vader
 categories:
   - Games
 tags:
