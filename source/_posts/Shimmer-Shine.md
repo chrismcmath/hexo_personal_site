@@ -10,11 +10,13 @@ pictures:
     title: ''
   - id: 2
     title: ''
-date: 2019-06-07
-role: Developer
+date: 2017-06-07
+role: Co-Developer
 status: Released
-tagline: Highly customisable slot machine
+tagline: Educatiion/Exercise game using the Shimmer & Shine IP
 ---
 
-We made a game.
+Working with Plug-In Media in Brighton, I was brought on at the end of the project's life-cycle, dealing with bug fixes, additional feature requests and general feedback from the client.
+
+The app was interesting in that it was controlled via a Bluetooth static bicycle, with pedals to control momentum and handle-bars for direction.
 
