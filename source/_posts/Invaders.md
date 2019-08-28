@@ -2,19 +2,15 @@ title: Invaders
 categories:
   - Games
 tags:
-  - project
+  - commission
 pictures:
   - id: 0
     title: ''
-  - id: 1
-    title: ''
-  - id: 2
-    title: ''
-date: 2019-06-07
+date: 2017-10-27
 role: Developer
-status: Released (Commission)
+status: Released
 tagline: Highly customisable slot machine
 ---
 
-We made a game.
+A commission for Saucelabs, this multi-stage experience funnels players from a fast-paced Space-Invaders style game into a roulette for live prizes.
 

@@ -2,8 +2,7 @@ title: 'Avenging My Gran, the Famed Botanist'
 categories:
   - Games
 tags:
-  - avenging-my-gran
-  - project
+  - jam
 pictures:
   - id: 0
     title: Cool paint effect not included

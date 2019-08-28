@@ -2,8 +2,7 @@ title: Alex Takes a Test
 categories:
   - Games
 tags:
-  - alex-test
-  - project
+  - jam
 pictures:
   - id: 0
     title: 'The opening sequence invokes The Twilight Zone'

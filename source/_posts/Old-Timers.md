@@ -21,10 +21,15 @@ links:
     url: ''
 date: 2019-06-07
 role: Developer/Designer
-status: Alpha (Cancelled)
+status: Alpha
 tagline: Top-down, time-travelling platformer 
 ---
 
 Old Timers, the culmination of the mini3T experiments, was a labour of love that I regrettably decided to shelve in June of 2019.
 
+Over the project I split myself between development, design and even marketing, and learnt a lot more about making games and our industry in the process. 
+
+I imagine I will return to these ideas, and perhaps even the tech I built, at some point in the future, but for now my trip down the time-travel rabbit hole is on hiatus.
+
 A full post-mortem is forthcoming...
+

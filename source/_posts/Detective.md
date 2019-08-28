@@ -1,4 +1,4 @@
-title: Untitled Detective Game
+title: Private Eye
 categories:
   - Games
 tags:
@@ -6,15 +6,10 @@ tags:
 pictures:
   - id: 0
     title: ''
-  - id: 1
-    title: ''
-  - id: 2
-    title: ''
-date: 2019-06-07
-role: Developer
+date: 2018-11-21
+role: Systems Developer
 status: In Development
-tagline: Highly customisable slot machine
+tagline: Cinematic, first-person psychological VR thriller
 ---
 
-We made a game.
-
+Beneficiary of the UK Games Fund Round 4, this project required an interaction system that allowed behaviours to be defined in editor and state to be entirely serializeable. We worked around various Unity shortcomings to allow this.

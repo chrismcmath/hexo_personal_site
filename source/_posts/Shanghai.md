@@ -2,8 +2,7 @@ title: Shanghai
 categories:
   - Games
 tags:
-  - shanghai
-  - project
+  - jam
 pictures:
   - id: 0
     title: 'The game was designed for mobile'

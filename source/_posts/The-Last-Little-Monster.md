@@ -2,8 +2,7 @@ title: The Last Little Monster
 categories:
   - Games
 tags:
-  - last-little-monster
-  - project
+  - jam
 pictures:
   - id: 0
     title: 'The immigration subtext was an unfortunate cut due to time'

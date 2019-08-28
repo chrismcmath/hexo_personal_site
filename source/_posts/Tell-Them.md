@@ -2,8 +2,7 @@ title: Tell Them
 categories:
   - Games
 tags:
-  - game
-  - project
+  - jam
 pictures:
   - id: 0
     title: 'Each player could choose to lie or tell the truth'

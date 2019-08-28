@@ -2,9 +2,8 @@ title: Cavern Conmen
 categories:
   - Games
 tags:
-  - cavern-conmen
   - ggj
-  - project
+  - jam
 pictures:
   - id: 0
     title: ''

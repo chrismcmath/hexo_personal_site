@@ -2,8 +2,7 @@ title: πramid
 categories:
   - Games
 tags:
-  - piramid
-  - project
+  - jam
 pictures:
   - id: 0
     title: Welcome to the Galaxy! I mean, Pyramid!

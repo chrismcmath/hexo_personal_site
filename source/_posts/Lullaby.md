@@ -2,8 +2,7 @@ title: Lullaby
 categories:
   - Games
 tags:
-  - lullaby
-  - project
+  - jam
 pictures:
   - id: 0
     title: ''

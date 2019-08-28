@@ -2,8 +2,8 @@ title: Tea For Vader
 categories:
   - Games
 tags:
-  - game
-  - project
+  - jam
+  - ggj
 pictures:
   - id: 0
     title: 'Darth takes his tea seriously'

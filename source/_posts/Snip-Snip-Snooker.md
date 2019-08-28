@@ -2,8 +2,7 @@ title: Snip Snip Snooker
 categories:
   - Games
 tags:
-  - game
-  - project
+  - jam
 pictures:
   - id: 0
     title: ''

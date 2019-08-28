@@ -2,8 +2,7 @@ title: Hello Operator
 categories:
   - Games
 tags:
-  - hello-operator
-  - project
+  - jam
 pictures:
   - id: 0
     title: 'The title was a nod to Papers Please'
