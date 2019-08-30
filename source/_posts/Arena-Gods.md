@@ -13,6 +13,9 @@ pictures:
 date: 2017-10-16
 role: Developer
 status: Released
+links:
+  - description: Steam
+    url: 'https://store.steampowered.com/app/410830/ARENA_GODS/'
 tagline: Top-down, arena fighting game
 ---
 

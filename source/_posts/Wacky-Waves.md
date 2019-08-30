@@ -7,6 +7,8 @@ tags:
 pictures:
   - id: 0
     title: ''
+  - id: 1
+    title: ''
 links:
   - description: Global Game Jam 2017 entry
     url: ''

@@ -20,5 +20,6 @@ status: Released (Commission)
 tagline: Highly customisable slot machine
 ---
 
-A commission from Quadrotech, Radar used the company iconography in a game that could be easily grasped and provide fast, fun rivalries between show attendees. It also provided a platform for receiving attendee details and starting new business relationships.
+A commission for Quadrotech, Radar uses the company iconography in a game that can be easily grasped and provides fast, fun rivalries between show attendees. It also provided a platform for receiving attendee details and starting new business relationships.
+
 

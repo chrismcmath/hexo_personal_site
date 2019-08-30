@@ -6,10 +6,6 @@ tags:
 pictures:
   - id: 0
     title: ''
-  - id: 1
-    title: ''
-  - id: 2
-    title: ''
 date: 2018-08-01
 role: Developer/Designer
 status: Prototypes
