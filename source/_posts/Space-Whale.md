@@ -8,7 +8,7 @@ pictures:
       title: 'Richard Sööts art was a highlight of the jam'
 links:
   - description: Itch.io
-    url: ''
+    url: 'https://escape-route.itch.io/solar-space-whale'
 date: 2019-06-08
 role: Co-Developer/Co-Designer
 status: Playable Sketch

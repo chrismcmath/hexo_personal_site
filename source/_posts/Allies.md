@@ -12,7 +12,7 @@ pictures:
     title: 'Swipe right to publish a story'
 links:
   - description: Itch.io
-    url: ''
+    url: 'https://escape-route.itch.io/conciliatory'
 date: 2019-07-27
 role: Developer/Co-Designer
 status: Playable Sketch
